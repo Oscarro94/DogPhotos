@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Photos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <h1>DogPhotoApp</h1>
+
+    <section class="section-1">
+    <h2>Dog photos</h2>
+    <!--TODO: Add link to dog photos-->
+    <p>See more <a href="https://unsplash.com/s/photos/rottweiler" target="_blank">dog photos</a> in our gallery.</p>
+    <!-- <a href="https://unsplash.com/s/photos/rottweiler">link to Rottweiler pictures</a> This is another way to put another link --> 
+    <a href="https://unsplash.com/s/photos/rottweiler" target="_blank"><img src="../DogPhotoApp/img/Rott.jpg" alt="A beautiful dog called Rott"></a>
+    </section>
+
+    <section class="section-2">
+        <h2>Dog lists</h2>
+        <h3>Things dogs love:</h3>
+        <ol>
+            <li>Eating alone</li>
+            <li>Sleeping a lot</li>
+            <li>Barking anytime</li>
+        </ol>
+        <figure>
+        <img src="../DogPhotoApp/img/food.jpg" alt="Delicious food for dogs">
+        <figcaption>Dogs <em>love</em> food</figcaption>
+     </figure>
+     <h3>Top 3 things dogs hate:</h3>
+
+     <ol>
+        <li>Fireworks</li>
+        <li>Being ignored</li>
+        <li>Being bored</li>
+     </ol>
+
+     <figure>
+        <img src="../DogPhotoApp/img/puppies.jpg" alt="Cute puppies">
+        <figcaption>Dogs are <strong>lovely</strong></figcaption>
+     </figure>
+    </section>
+
+    <section class="section-3">
+        <h2>Dog form</h2>
+        <form action="https://unsplash.com/s/photos/rottweiler-puppies"></form>
+
+        <fieldset>
+            <legend>Is your dog a quiet dog or a playful dog?</legend>
+        <label><input name="quiet-playful" type="radio" value="quiet" id="quiet" checked>Quiet</label>
+
+        <label><input name="quiet-playful" type="radio" value="playful" id="playful">Playful</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>What's your dog's personality?</legend>
+            <input name="personality" type="checkbox" id="loving" checked> <label for="loving">Loving</label>
+
+            <input id="lazy" type="checkbox" value="lazy" name="personality"> <label for="lazy">Lazy</label>
+
+             <input id="energetic" type="checkbox" value="energetic" name="personality"> <label for="energetic">Energetic</label>
+        </fieldset>
+
+        <input type="text" name="dogphotourl" placeholder="dog photo URL" required>
+        <button type="submit">Submit</button>
+        
+    </section>
+</main>
+<footer>
+    <p>Copyright © 2023</p>
+</footer>
+</body>
+</html>

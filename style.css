@@ -1,0 +1,66 @@
+body{
+    font-size: 1.25rem;
+    color: #212614;
+    margin: 0;
+    border:#333333 10px solid;
+    background-color:#beab72;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+a{
+    color: maroon;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+ol{
+    text-align: center;
+    padding: 0;
+    list-style-position: inside;
+}
+.section-1 p{
+    margin: 0;
+    text-align: center;
+}
+
+
+.section-1 img{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.section-2 img{
+    display: block;
+    width: 70%;
+    margin: auto;
+    
+}
+
+.section-3{
+    text-align: center;
+}
+
+figcaption, fieldset, input{
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+    color: #212614;
+    
+}
